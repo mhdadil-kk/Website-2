@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header-top{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 105px;
+    background: #fff;
+
+}
+.img-1 {
+
+    position: relative;
+    width: 128px;
+    height: 27px;
+    background-color:#fff;
+
+}
+.img-1 img{
+    left: 143px;
+    top: 39px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.nav-bar ul{
+
+    display: flex;
+    margin-top: 43px;
+    margin-right: 144px;
+    cursor: pointer;
+}
+.nav-bar li{
+
+    list-style: none;
+    margin-right: 43px;
+    color: #2b2d40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    transition: opacity 0.15s;
+    font-weight: 500
+}
+.nav-bar li:hover{
+
+    opacity: 0.7;
+
+}
+#img1{
+    width: 100%;
+    height: 900px;
+    position: relative;
+
+}
+#img2{
+
+    position: absolute;
+    right: 35px;
+    left: 224px;
+    top: 340px;
+    bottom: 0;
+    width: 65%;
+
+}
+
+.section3{
+
+    display: flex;
+    width: 80%;
+    height: 480px;
+    padding-left: 9.3rem;
+    padding-top: 10rem;
+
+}
+
+.suggetions-1{
+
+    flex: 2;
+    height: 100px;
+
+}
+
+.suggetions-2{
+
+    flex: 2;
+    height: 100px;
+    padding-left: 2rem;
+
+}
+
+.suggetions-3{
+
+    flex: 3;
+    height: 100px;
+    padding-left: 2rem;
+
+
+}
+
+.pic-1{
+
+    width: 21rem;
+
+}
+
+.p1{
+
+    padding-left: 8rem;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.p2{
+
+    padding-top: 40px;
+    padding-left: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+
+}
+.section-4 {
+
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-4 i{
+
+    color: #000000;
+    width: 34px;
+    font-size: 23px;
+}
+.insta {
+    color: #000000;
+    font-size: larger;
+    justify-content: center;
+    width: 99%;
+    display: flex;
+    line-height: 40px;
+
+}
+.footer{
+
+    width: 100%;
+    height: 260px;
+    padding-top: 40px;
+}
+.footer p{
+
+    font-family: 'raleway' ,sans-serif;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #1d1d1d;
+    letter-spacing: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.footer :hover{
+    opacity: 0.8;
+}
+.last{
+   display: flex;
+   justify-content:center ;
+   margin-top: 79px;
+
+}
+
+.last button{
+
+    letter-spacing: 1px;
+    width: 408px;
+    height: 55px;
+    font-size: 0.8em;
+    color: #68b631;
+    border: 1px solid #68b631;
+    cursor: pointer;
+
+}
+.last :hover{
+    color: #fff;
+    background:#68b631;
+}
